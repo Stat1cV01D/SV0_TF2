@@ -6,9 +6,9 @@ $F1::
 	send {F1 up}
 	random,sleeptime,54,69
 	sleep %sleeptime%
-	send {NumpadClear down}
+	send {Home down}
 	sleep 30
-	send {NumpadClear up}
+	send {Home up}
 	sleep %sleeptime%
 return
 $F2::
@@ -17,9 +17,9 @@ $F2::
 	send {F2 up}
 	random,sleeptime,54,69
 	sleep %sleeptime%
-	send {NumpadClear down}
+	send {Home down}
 	sleep 30
-	send {NumpadClear up}
+	send {Home up}
 	sleep %sleeptime%
 return
 $F3::
@@ -28,9 +28,9 @@ $F3::
 	send {F3 up}
 	random,sleeptime,54,69
 	sleep %sleeptime%
-	send {NumpadClear down}
+	send {Home down}
 	sleep 30
-	send {NumpadClear up}
+	send {Home up}
 	sleep %sleeptime%
 return
 ; Uber counter
@@ -55,10 +55,10 @@ UberCounterFunc(Key) {
 	}
 }
 $NumPad7::
-	UberCounterFunc("NumPad7")	
+	;UberCounterFunc("NumPad7")	
 return
 $NumpadHome::
-	UberCounterFunc("NumpadHome")	
+	;UberCounterFunc("NumpadHome")	
 return
 
 StopUberCounterFunc() {
