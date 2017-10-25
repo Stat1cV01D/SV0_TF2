@@ -1,9 +1,9 @@
 ; Vaccinator binds
 #InstallKeybdHook
-$F1::
-	send {F1 down}
+$q::
+	send {q down}
 	sleep 30
-	send {F1 up}
+	send {q up}
 	random,sleeptime,54,69
 	sleep %sleeptime%
 	send {Home down}
@@ -11,10 +11,10 @@ $F1::
 	send {Home up}
 	sleep %sleeptime%
 return
-$F2::
-	send {F2 down}
+$e::
+	send {e down}
 	sleep 30
-	send {F2 up}
+	send {e up}
 	random,sleeptime,54,69
 	sleep %sleeptime%
 	send {Home down}
@@ -22,10 +22,10 @@ $F2::
 	send {Home up}
 	sleep %sleeptime%
 return
-$F3::
-	send {F3 down}
+$r::
+	send {r down}
 	sleep 30
-	send {F3 up}
+	send {r up}
 	random,sleeptime,54,69
 	sleep %sleeptime%
 	send {Home down}
